@@ -97,3 +97,9 @@ $(document).ready(function () {
         return sliderImgTran;
     })
 })
+
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    var video = document.getElementById('vid');
+    video.play();
+});
