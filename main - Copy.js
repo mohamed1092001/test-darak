@@ -103,3 +103,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
     var video = document.getElementById('vid');
     video.play();
 });
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    var video = document.getElementById('vid2');
+    video.play();
+});
